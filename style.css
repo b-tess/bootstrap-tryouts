@@ -2,7 +2,34 @@ body {
     background-color: #99582a;
 }
 
-.container {
-    background-color: #ffe6a7;
-    /* width: 100%; */
+.container.header {
+    background-color: rgb(255, 230, 167);
+    box-shadow: 0 0.5rem 1rem #003049;
+}
+
+.nav-link,
+a > span {
+    color: #432818;
+}
+
+.nav-link:hover,
+a > span:hover {
+    color: #99582a;
+}
+
+.nav-link:focus {
+    color: rgb(255, 230, 167);
+    background-color: #003049;
+}
+
+.intro {
+    color: #432818;
+}
+
+.lead {
+    color: rgb(255, 230, 167);
+}
+
+.features-icon {
+    background-color: rgb(255, 230, 167);
 }
