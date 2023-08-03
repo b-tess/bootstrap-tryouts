@@ -22,14 +22,50 @@ a > span:hover {
     background-color: #003049;
 }
 
-.intro {
+.intro,
+#hanging-icons p {
     color: #432818;
 }
 
-.lead {
+.lead,
+footer span {
     color: rgb(255, 230, 167);
 }
 
 .features-icon {
     background-color: rgb(255, 230, 167);
+}
+
+#hanging-icons > h2 {
+    color: #003049;
+    border-bottom: 0.5px solid rgb(255, 230, 167);
+}
+
+#hanging-icons h3 {
+    color: #6f1d1b;
+}
+
+.btn {
+    border: 1px solid #6f1d1b;
+    border-radius: 5px;
+    color: rgb(255, 230, 167);
+    box-shadow: 0 0.2rem 0.3rem #6f1d1b;
+}
+
+.btn:hover {
+    background-color: #6f1d1b;
+    color: rgb(255, 230, 167);
+}
+
+.food-pic {
+    float: left;
+}
+
+footer {
+    box-shadow: 0 0.5rem 1rem #003049;
+    border-top: 0.5px solid #6f1d1b;
+}
+
+.social-icons img {
+    color: rgb(255, 230, 167);
 }
