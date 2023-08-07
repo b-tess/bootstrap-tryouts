@@ -45,6 +45,13 @@ footer span {
     color: #6f1d1b;
 }
 
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    background-color: rgb(255, 230, 167);
+}
+
 .btn {
     border: 1px solid #6f1d1b;
     border-radius: 5px;
